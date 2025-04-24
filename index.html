@@ -3,47 +3,59 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Услуги</title>
+    <title>Бухгалтерские услуги</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1><img src="img/logo.svg" alt="logo">BuhOne</h1>
+        <h1 class="main_logo"><img src="img/logo.svg" alt="logo">BuhOne</h1>
         <ul>
             <li>
-                <a href="tel:81112223344">
+                <a class="header_contacts_link" href="tel:81112223344">
                     <img src="img/mobilePhone.svg" alt="mobilePhone">
-                    <span>8 (111) 222-33-44</span>
+                    <span class="header_contacts">8 (111) 222-33-44</span>
                 </a>
             </li>
             <li>
                 <img src="img/clock.svg" alt="clock">
-                <span>Пн-Пт 10:00-18:00</span>
+                <span class="header_contacts">Пн-Пт 10:00-18:00</span>
             </li>
             <li>
-                <a href="mailto:order@buhone.ru">
-                    <img src="img/envelopeTop.svg" alt="">order@buhone.ru
+                <a class="header_contacts_link" href="mailto:order@buhone.ru">
+                    <img src="img/envelopeTop.svg" alt="envelope-blue">
+                    <span class="header_contacts">order@buhone.ru</span>
                 </a>
             </li>
-            <li><img src="img/placeholder.svg" alt="">
-                <span>Невский пр. 130</span>
+            <li><img src="img/placeholder.svg" alt="mark">
+                <span class="header_contacts">Невский пр. 130</span>
             </li>
         </ul>
         <nav>
             <ul>
-                <li><a href="#"></a>Главная</li>
-                <li><a href="#"></a>услуги</li>
-                <li><a href="#"></a>кейсы</li>
-                <li><a href="#"></a>о компании</li>
-                <li><a href="#"></a>контакты</li>
+                <li><a class="header_main_menu" href="#">Главная</a></li>
+                <li><a class="header_main_menu" href="#">услуги</a></li>
+                <li><a class="header_main_menu" href="#">кейсы</a></li>
+                <li><a class="header_main_menu" href="#">о компании</a></li>
+                <li><a class="header_main_menu" href="#">контакты</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Бухгалтерские услуги в Санкт-Петербурге</h1>
-            <a href="#">Наша презентация</a>
+        <section class="main_section">
+            <h1 class="main_section_title">Бухгалтерские услуги в Санкт-Петербурге</h1>
+            <a class="main_section_link" href="#">Наша презентация</a>
             <!-- <img src="img/first-screen-bkg.webp" width="100%" alt="firstscreenbkg"> -->
         </section>
         <section>
@@ -79,24 +91,41 @@
                 Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн.
             </p>
             <ul>
-                <li>90 Завершено крупных сделок <a href="#">Все кейсы</a></li>
-                <li>90 Завершено крупных сделок <a href="#">Все кейсы</a></li>
-                <li>90 Завершено крупных сделок <a href="#">Все кейсы</a></li>
-                <li>90 Завершено крупных сделок <a href="#">Все кейсы</a></li>
+                <li>
+                    <p>90</p>
+                    <h3>Завершено крупных сделок</h3>
+                    <a href="#">Все кейсы</a>
+                </li>
+                <li>
+                    <p>90</p>
+                    <h3>Завершено крупных сделок</h3>
+                    <a href="#">Все кейсы</a>
+                </li>
+                <li>
+                    <p>90</p>
+                    <h3>Завершено крупных сделок</h3>
+                    <a href="#">Все кейсы</a>
+                </li>
+                <li>
+                    <p>90</p>
+                    <h3>Завершено крупных сделок</h3>
+                    <a href="#">Все кейсы</a>
+                </li>
             </ul>
         </section>
         <section>
             <h2>Наши клиенты</h2>
             <p>С нами работают</p>
             <ul style="list-style: none;">
-                <li><img src="img/Microsoft.webp" alt="company1"></li>
-                <li><img src="img/Microsoft.webp" alt="company2"></li>
-                <li><img src="img/Microsoft.webp" alt="company3"></li>
-                <li><img src="img/Microsoft.webp" alt="company4"></li>
-                <li><img src="img/Microsoft.webp" alt="company5"></li>
-                <li><img src="img/Microsoft.webp" alt="company6"></li>
-                <li><img src="img/Microsoft.webp" alt="company7"></li>
-                <li><img src="img/Microsoft.webp" alt="company8"></li>
+                <li><a href="#"><img src="img/Microsoft.webp" alt="client"></a></li>
+                <li><a href="#"><img src="img/Microsoft.webp" alt="client"></a></li>
+                <li><a href="#"><img src="img/Microsoft.webp" alt="client"></a></li>
+                <li><a href="#"><img src="img/Microsoft.webp" alt="client"></a></li>
+                <li><a href="#"><img src="img/Microsoft.webp" alt="client"></a></li>
+                <li><a href="#"><img src="img/Microsoft.webp" alt="client"></a></li>
+                <li><a href="#"><img src="img/Microsoft.webp" alt="client"></a></li>
+                <li><a href="#"><img src="img/Microsoft.webp" alt="client"></a></li>
+                <li><a href="#"><img src="img/Microsoft.webp" alt="client"></a></li>
             </ul>
         </section>
         <section>
